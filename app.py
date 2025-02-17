@@ -1,6 +1,7 @@
 import json
 import requests
 import pandas as pd
+from waitress import serve
 from flask import Flask, request, jsonify
 
 app = Flask(__name__)
@@ -117,4 +118,6 @@ def recommend():
 
 # Run Flask server
 if __name__ == '__main__':
-    app.run(debug=True)
+    from waitress import serve
+    serve(app, host="0.0.0.0", port=10000)
+
