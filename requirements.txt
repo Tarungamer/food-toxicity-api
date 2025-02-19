@@ -158,5 +158,3 @@ wrapt==1.16.0
 xgboost==2.1.4
 cryptography==41.0.3
 pydantic==1.10.9
-
-waitress==3.0.2
