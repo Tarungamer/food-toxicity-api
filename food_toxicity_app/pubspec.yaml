@@ -88,4 +88,4 @@ dependencies:
   flutter:
     sdk: flutter
   http: ^0.13.4 # For API calls
-  mobile_scanner: ^3.2.0 # For barcode scanning
+  mobile_scanner: ^3.5.7 # For barcode scanning
